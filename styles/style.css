@@ -65,11 +65,19 @@ header {
 }
 
 .nav-link {
-    color: rgb(157, 196, 196);
     font-style: normal;
     text-decoration: none;
     padding: 0.45em;
+    color: rgb(157, 196, 196);
+    background-color: inherit;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out, padding-left 0.25s ease-out;
     
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(28, 28, 28);
+    padding-left: 1em;
 }
 
 .main-doc {
