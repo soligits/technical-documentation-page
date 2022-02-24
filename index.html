@@ -11,73 +11,173 @@
 
 <body>
     <nav class="navbar-doc" id="navbar">
-        <header>
-            <h1>
-                VS Code Manual
-            </h1>
+        <header class="navbar-header">
+            VS Code Manual
         </header>
-        <a href="#Introduction" class="nav-link" id="nav-link1">Introduction</a>
-        <a href="#Installation" class="nav-link" id="nav-link2">Installation</a>
-        <a href="#Quick_Start" class="nav-link" id="nav-link3">Quick Start</a>
-        <a href="#Extensions" class="nav-link" id="nav-link4">Extensions</a>
-        <a href="#Commands" class="nav-link" id="nav-link5">Commands</a>
-        <a href="#Pro_Tips" class="nav-link" id="nav-link6">Pro Tips</a>
-        <a href="#Full_Documentation" class="nav-link" id="nav-link7">Full Documentation</a>
+        <ul class="navbar-list">
+            <li class="navbar-list-item"><a href="#Introduction" class="nav-link" id="nav-link1">Introduction</a></li>
+            <li class="navbar-list-item"><a href="#Installation" class="nav-link" id="nav-link2">Installation</a></li>
+            <li class="navbar-list-item"><a href="#Quick_Start" class="nav-link" id="nav-link3">Quick Start</a></li>
+            <li class="navbar-list-item"><a href="#Extensions" class="nav-link" id="nav-link4">Extensions</a></li>
+            <li class="navbar-list-item"><a href="#Commands" class="nav-link" id="nav-link5">Commands</a></li>
+            <li class="navbar-list-item"><a href="#Pro_Tips" class="nav-link" id="nav-link6">Pro Tips</a></li>
+            <li class="navbar-list-item"><a href="#Full_Documentation" class="nav-link" id="nav-link7">Full
+                    Documentation</a></li>
+        </ul>
     </nav>
-    <main id="main-doc">
+    <main class="main-doc" id="main-doc">
         <section class="main-section" id="Introduction">
             <header>Introduction</header>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus id arcu tincidunt convallis. Maecenas tincidunt felis vitae tortor convallis imperdiet. Pellentesque vel purus tellus. Praesent vel suscipit orci. Vivamus iaculis ut est in aliquam. Morbi feugiat dui libero, non malesuada erat tristique euismod. Morbi efficitur luctus faucibus. Duis diam urna, fermentum ac felis sit amet, pulvinar fermentum odio. Duis porta leo quis tortor rhoncus egestas. Nunc blandit, magna et accumsan congue, felis purus eleifend mi, id consequat felis mauris eget elit. Donec nunc tellus, mollis id condimentum sed, porta vel nulla. Proin a mi at lorem feugiat porta vel non nisi. Curabitur finibus lacinia ultrices. Sed pharetra lectus augue, ultricies luctus neque cursus ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas blandit, est vitae dignissim faucibus, nulla libero suscipit dolor, nec gravida orci felis vitae nunc. 
-            </p>
-            <p>
-                Proin odio turpis, tincidunt non mi nec, fringilla porta justo. Proin eget lorem lacinia, auctor ligula vel, gravida velit. Pellentesque tincidunt lacus vel orci consequat, eu auctor turpis aliquet. Vivamus varius molestie massa, ac feugiat enim consequat non. Maecenas malesuada mattis enim varius rhoncus. Etiam lacinia pellentesque nunc eget rhoncus. Nam ac nunc sapien. Curabitur eleifend egestas rhoncus. Pellentesque odio nisi, gravida sed est nec, convallis vestibulum leo. Mauris sed mauris a tortor commodo iaculis ac nec risus. Aenean eu arcu laoreet, dictum odio mollis, commodo libero. Donec sagittis sit amet quam in ultricies. Proin venenatis, sem sit amet commodo accumsan, justo neque dapibus enim, sed lacinia metus nisi ac nulla. Donec egestas suscipit pharetra. Aenean dignissim arcu nec dolor ullamcorper, tempor eleifend ipsum porta. 
+                Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux and macOS. Features
+                include support for debugging, syntax highlighting, intelligent code completion, snippets, code
+                refactoring, and embedded Git. Users can change the theme, keyboard shortcuts, preferences, and install
+                extensions that add additional functionality.
+
+                In the Stack Overflow 2021 Developer Survey, Visual Studio Code was ranked the most popular developer
+                environment tool, with 70% of 82,000 respondents reporting that they use it.
             </p>
         </section>
         <section class="main-section" id="Installation">
             <header>Installation</header>
+            <h2>Windows</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus id arcu tincidunt convallis. Maecenas tincidunt felis vitae tortor convallis imperdiet. Pellentesque vel purus tellus. Praesent vel suscipit orci. Vivamus iaculis ut est in aliquam. Morbi feugiat dui libero, non malesuada erat tristique euismod. Morbi efficitur luctus faucibus. Duis diam urna, fermentum ac felis sit amet, pulvinar fermentum odio. Duis porta leo quis tortor rhoncus egestas. Nunc blandit, magna et accumsan congue, felis purus eleifend mi, id consequat felis mauris eget elit. Donec nunc tellus, mollis id condimentum sed, porta vel nulla. Proin a mi at lorem feugiat porta vel non nisi. Curabitur finibus lacinia ultrices. Sed pharetra lectus augue, ultricies luctus neque cursus ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas blandit, est vitae dignissim faucibus, nulla libero suscipit dolor, nec gravida orci felis vitae nunc. 
+                For windows users, the installation proccess is really simple. All you need to do is to download the
+                executable file that is compatilble
+                with your processor from the <a href="https://code.visualstudio.com/download#">VS Code download
+                    section</a>. After that, just open the file,
+                and proceed with the installation.
             </p>
+            <h2>OS X</h2>
             <p>
-                Proin odio turpis, tincidunt non mi nec, fringilla porta justo. Proin eget lorem lacinia, auctor ligula vel, gravida velit. Pellentesque tincidunt lacus vel orci consequat, eu auctor turpis aliquet. Vivamus varius molestie massa, ac feugiat enim consequat non. Maecenas malesuada mattis enim varius rhoncus. Etiam lacinia pellentesque nunc eget rhoncus. Nam ac nunc sapien. Curabitur eleifend egestas rhoncus. Pellentesque odio nisi, gravida sed est nec, convallis vestibulum leo. Mauris sed mauris a tortor commodo iaculis ac nec risus. Aenean eu arcu laoreet, dictum odio mollis, commodo libero. Donec sagittis sit amet quam in ultricies. Proin venenatis, sem sit amet commodo accumsan, justo neque dapibus enim, sed lacinia metus nisi ac nulla. Donec egestas suscipit pharetra. Aenean dignissim arcu nec dolor ullamcorper, tempor eleifend ipsum porta. 
+                idk guys I'm not rich.
+            </p>
+            <h2>Linux</h2>
+            <p>
+            <h3>Snap</h3>
+            If your OS supports snap store, then open a terminal and run the following code:
+            <br>
+            <pre><code>
+sudo snap install --classic code
+                </code></pre>
+            <br>
+            <h3>Debian and Ubuntu based distros</h3>
+            For Ubuntu and other Debian based distros, you can also download the <a
+                href="https://go.microsoft.com/fwlink/?LinkID=760868">.deb package</a>.
+            You can also use wget for this:
+            <pre><code>
+wget https://go.microsoft.com/fwlink/?LinkID=760868
+                </code></pre>
+            After that, install the .deb file using apt:
+            <pre><code>
+sudo apt install {file}.deb
+                </code></pre>
+            You can update the package using the code bellow:
+            <pre><code>
+sudo apt install apt-transport-https
+sudo apt update
+sudo apt install code # or code-insiders
+                </code></pre>
+            <h3>RHEL, Fedora, and CentOS based distributions</h3>
+            Install the yum repository and key:
+            <pre><code>
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+                </code></pre>
+            And then update:
+            <pre><code>
+dnf check-update
+sudo dnf install code
+                </code></pre>
             </p>
 
         </section>
         <section class="main-section" id="Quick_Start">
             <header>Quick Start</header>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus id arcu tincidunt convallis. Maecenas tincidunt felis vitae tortor convallis imperdiet. Pellentesque vel purus tellus. Praesent vel suscipit orci. Vivamus iaculis ut est in aliquam. Morbi feugiat dui libero, non malesuada erat tristique euismod. Morbi efficitur luctus faucibus. Duis diam urna, fermentum ac felis sit amet, pulvinar fermentum odio. Duis porta leo quis tortor rhoncus egestas. Nunc blandit, magna et accumsan congue, felis purus eleifend mi, id consequat felis mauris eget elit. Donec nunc tellus, mollis id condimentum sed, porta vel nulla. Proin a mi at lorem feugiat porta vel non nisi. Curabitur finibus lacinia ultrices. Sed pharetra lectus augue, ultricies luctus neque cursus ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas blandit, est vitae dignissim faucibus, nulla libero suscipit dolor, nec gravida orci felis vitae nunc. 
-            </p>
-            <p>
-                Proin odio turpis, tincidunt non mi nec, fringilla porta justo. Proin eget lorem lacinia, auctor ligula vel, gravida velit. Pellentesque tincidunt lacus vel orci consequat, eu auctor turpis aliquet. Vivamus varius molestie massa, ac feugiat enim consequat non. Maecenas malesuada mattis enim varius rhoncus. Etiam lacinia pellentesque nunc eget rhoncus. Nam ac nunc sapien. Curabitur eleifend egestas rhoncus. Pellentesque odio nisi, gravida sed est nec, convallis vestibulum leo. Mauris sed mauris a tortor commodo iaculis ac nec risus. Aenean eu arcu laoreet, dictum odio mollis, commodo libero. Donec sagittis sit amet quam in ultricies. Proin venenatis, sem sit amet commodo accumsan, justo neque dapibus enim, sed lacinia metus nisi ac nulla. Donec egestas suscipit pharetra. Aenean dignissim arcu nec dolor ullamcorper, tempor eleifend ipsum porta. 
+                Here is a video that will help you get started with VS Code:
+                <br>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/S320N3sxinE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
             </p>
         </section>
         <section class="main-section" id="Extensions">
             <header>Extensions</header>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus id arcu tincidunt convallis. Maecenas tincidunt felis vitae tortor convallis imperdiet. Pellentesque vel purus tellus. Praesent vel suscipit orci. Vivamus iaculis ut est in aliquam. Morbi feugiat dui libero, non malesuada erat tristique euismod. Morbi efficitur luctus faucibus. Duis diam urna, fermentum ac felis sit amet, pulvinar fermentum odio. Duis porta leo quis tortor rhoncus egestas. Nunc blandit, magna et accumsan congue, felis purus eleifend mi, id consequat felis mauris eget elit. Donec nunc tellus, mollis id condimentum sed, porta vel nulla. Proin a mi at lorem feugiat porta vel non nisi. Curabitur finibus lacinia ultrices. Sed pharetra lectus augue, ultricies luctus neque cursus ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas blandit, est vitae dignissim faucibus, nulla libero suscipit dolor, nec gravida orci felis vitae nunc. 
+                Here's a list of useful extensions
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </p>
             <p>
-                Proin odio turpis, tincidunt non mi nec, fringilla porta justo. Proin eget lorem lacinia, auctor ligula vel, gravida velit. Pellentesque tincidunt lacus vel orci consequat, eu auctor turpis aliquet. Vivamus varius molestie massa, ac feugiat enim consequat non. Maecenas malesuada mattis enim varius rhoncus. Etiam lacinia pellentesque nunc eget rhoncus. Nam ac nunc sapien. Curabitur eleifend egestas rhoncus. Pellentesque odio nisi, gravida sed est nec, convallis vestibulum leo. Mauris sed mauris a tortor commodo iaculis ac nec risus. Aenean eu arcu laoreet, dictum odio mollis, commodo libero. Donec sagittis sit amet quam in ultricies. Proin venenatis, sem sit amet commodo accumsan, justo neque dapibus enim, sed lacinia metus nisi ac nulla. Donec egestas suscipit pharetra. Aenean dignissim arcu nec dolor ullamcorper, tempor eleifend ipsum porta. 
+                Proin odio turpis, tincidunt non mi nec, fringilla porta justo. Proin eget lorem lacinia, auctor ligula
+                vel, gravida velit. Pellentesque tincidunt lacus vel orci consequat, eu auctor turpis aliquet. Vivamus
+                varius molestie massa, ac feugiat enim consequat non. Maecenas malesuada mattis enim varius rhoncus.
+                Etiam lacinia pellentesque nunc eget rhoncus. Nam ac nunc sapien. Curabitur eleifend egestas rhoncus.
+                Pellentesque odio nisi, gravida sed est nec, convallis vestibulum leo. Mauris sed mauris a tortor
+                commodo iaculis ac nec risus. Aenean eu arcu laoreet, dictum odio mollis, commodo libero. Donec sagittis
+                sit amet quam in ultricies. Proin venenatis, sem sit amet commodo accumsan, justo neque dapibus enim,
+                sed lacinia metus nisi ac nulla. Donec egestas suscipit pharetra. Aenean dignissim arcu nec dolor
+                ullamcorper, tempor eleifend ipsum porta.
             </p>
         </section>
         <section class="main-section" id="Commands">
             <header>Commands</header>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus id arcu tincidunt convallis. Maecenas tincidunt felis vitae tortor convallis imperdiet. Pellentesque vel purus tellus. Praesent vel suscipit orci. Vivamus iaculis ut est in aliquam. Morbi feugiat dui libero, non malesuada erat tristique euismod. Morbi efficitur luctus faucibus. Duis diam urna, fermentum ac felis sit amet, pulvinar fermentum odio. Duis porta leo quis tortor rhoncus egestas. Nunc blandit, magna et accumsan congue, felis purus eleifend mi, id consequat felis mauris eget elit. Donec nunc tellus, mollis id condimentum sed, porta vel nulla. Proin a mi at lorem feugiat porta vel non nisi. Curabitur finibus lacinia ultrices. Sed pharetra lectus augue, ultricies luctus neque cursus ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas blandit, est vitae dignissim faucibus, nulla libero suscipit dolor, nec gravida orci felis vitae nunc. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus id arcu tincidunt
+                convallis. Maecenas tincidunt felis vitae tortor convallis imperdiet. Pellentesque vel purus tellus.
+                Praesent vel suscipit orci. Vivamus iaculis ut est in aliquam. Morbi feugiat dui libero, non malesuada
+                erat tristique euismod. Morbi efficitur luctus faucibus. Duis diam urna, fermentum ac felis sit amet,
+                pulvinar fermentum odio. Duis porta leo quis tortor rhoncus egestas. Nunc blandit, magna et accumsan
+                congue, felis purus eleifend mi, id consequat felis mauris eget elit. Donec nunc tellus, mollis id
+                condimentum sed, porta vel nulla. Proin a mi at lorem feugiat porta vel non nisi. Curabitur finibus
+                lacinia ultrices. Sed pharetra lectus augue, ultricies luctus neque cursus ac. Pellentesque habitant
+                morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas blandit, est vitae
+                dignissim faucibus, nulla libero suscipit dolor, nec gravida orci felis vitae nunc.
             </p>
             <p>
-                Proin odio turpis, tincidunt non mi nec, fringilla porta justo. Proin eget lorem lacinia, auctor ligula vel, gravida velit. Pellentesque tincidunt lacus vel orci consequat, eu auctor turpis aliquet. Vivamus varius molestie massa, ac feugiat enim consequat non. Maecenas malesuada mattis enim varius rhoncus. Etiam lacinia pellentesque nunc eget rhoncus. Nam ac nunc sapien. Curabitur eleifend egestas rhoncus. Pellentesque odio nisi, gravida sed est nec, convallis vestibulum leo. Mauris sed mauris a tortor commodo iaculis ac nec risus. Aenean eu arcu laoreet, dictum odio mollis, commodo libero. Donec sagittis sit amet quam in ultricies. Proin venenatis, sem sit amet commodo accumsan, justo neque dapibus enim, sed lacinia metus nisi ac nulla. Donec egestas suscipit pharetra. Aenean dignissim arcu nec dolor ullamcorper, tempor eleifend ipsum porta. 
+                Proin odio turpis, tincidunt non mi nec, fringilla porta justo. Proin eget lorem lacinia, auctor ligula
+                vel, gravida velit. Pellentesque tincidunt lacus vel orci consequat, eu auctor turpis aliquet. Vivamus
+                varius molestie massa, ac feugiat enim consequat non. Maecenas malesuada mattis enim varius rhoncus.
+                Etiam lacinia pellentesque nunc eget rhoncus. Nam ac nunc sapien. Curabitur eleifend egestas rhoncus.
+                Pellentesque odio nisi, gravida sed est nec, convallis vestibulum leo. Mauris sed mauris a tortor
+                commodo iaculis ac nec risus. Aenean eu arcu laoreet, dictum odio mollis, commodo libero. Donec sagittis
+                sit amet quam in ultricies. Proin venenatis, sem sit amet commodo accumsan, justo neque dapibus enim,
+                sed lacinia metus nisi ac nulla. Donec egestas suscipit pharetra. Aenean dignissim arcu nec dolor
+                ullamcorper, tempor eleifend ipsum porta.
             </p>
         </section>
         <section class="main-section" id="Pro_Tips">
             <header>Pro Tips</header>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus id arcu tincidunt convallis. Maecenas tincidunt felis vitae tortor convallis imperdiet. Pellentesque vel purus tellus. Praesent vel suscipit orci. Vivamus iaculis ut est in aliquam. Morbi feugiat dui libero, non malesuada erat tristique euismod. Morbi efficitur luctus faucibus. Duis diam urna, fermentum ac felis sit amet, pulvinar fermentum odio. Duis porta leo quis tortor rhoncus egestas. Nunc blandit, magna et accumsan congue, felis purus eleifend mi, id consequat felis mauris eget elit. Donec nunc tellus, mollis id condimentum sed, porta vel nulla. Proin a mi at lorem feugiat porta vel non nisi. Curabitur finibus lacinia ultrices. Sed pharetra lectus augue, ultricies luctus neque cursus ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas blandit, est vitae dignissim faucibus, nulla libero suscipit dolor, nec gravida orci felis vitae nunc. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus id arcu tincidunt
+                convallis. Maecenas tincidunt felis vitae tortor convallis imperdiet. Pellentesque vel purus tellus.
+                Praesent vel suscipit orci. Vivamus iaculis ut est in aliquam. Morbi feugiat dui libero, non malesuada
+                erat tristique euismod. Morbi efficitur luctus faucibus. Duis diam urna, fermentum ac felis sit amet,
+                pulvinar fermentum odio. Duis porta leo quis tortor rhoncus egestas. Nunc blandit, magna et accumsan
+                congue, felis purus eleifend mi, id consequat felis mauris eget elit. Donec nunc tellus, mollis id
+                condimentum sed, porta vel nulla. Proin a mi at lorem feugiat porta vel non nisi. Curabitur finibus
+                lacinia ultrices. Sed pharetra lectus augue, ultricies luctus neque cursus ac. Pellentesque habitant
+                morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas blandit, est vitae
+                dignissim faucibus, nulla libero suscipit dolor, nec gravida orci felis vitae nunc.
             </p>
             <p>
-                Proin odio turpis, tincidunt non mi nec, fringilla porta justo. Proin eget lorem lacinia, auctor ligula vel, gravida velit. Pellentesque tincidunt lacus vel orci consequat, eu auctor turpis aliquet. Vivamus varius molestie massa, ac feugiat enim consequat non. Maecenas malesuada mattis enim varius rhoncus. Etiam lacinia pellentesque nunc eget rhoncus. Nam ac nunc sapien. Curabitur eleifend egestas rhoncus. Pellentesque odio nisi, gravida sed est nec, convallis vestibulum leo. Mauris sed mauris a tortor commodo iaculis ac nec risus. Aenean eu arcu laoreet, dictum odio mollis, commodo libero. Donec sagittis sit amet quam in ultricies. Proin venenatis, sem sit amet commodo accumsan, justo neque dapibus enim, sed lacinia metus nisi ac nulla. Donec egestas suscipit pharetra. Aenean dignissim arcu nec dolor ullamcorper, tempor eleifend ipsum porta. 
+                Proin odio turpis, tincidunt non mi nec, fringilla porta justo. Proin eget lorem lacinia, auctor ligula
+                vel, gravida velit. Pellentesque tincidunt lacus vel orci consequat, eu auctor turpis aliquet. Vivamus
+                varius molestie massa, ac feugiat enim consequat non. Maecenas malesuada mattis enim varius rhoncus.
+                Etiam lacinia pellentesque nunc eget rhoncus. Nam ac nunc sapien. Curabitur eleifend egestas rhoncus.
+                Pellentesque odio nisi, gravida sed est nec, convallis vestibulum leo. Mauris sed mauris a tortor
+                commodo iaculis ac nec risus. Aenean eu arcu laoreet, dictum odio mollis, commodo libero. Donec sagittis
+                sit amet quam in ultricies. Proin venenatis, sem sit amet commodo accumsan, justo neque dapibus enim,
+                sed lacinia metus nisi ac nulla. Donec egestas suscipit pharetra. Aenean dignissim arcu nec dolor
+                ullamcorper, tempor eleifend ipsum porta.
             </p>
         </section>
         <section class="main-section" id="Full_Documentation">
